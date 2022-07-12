@@ -66,7 +66,7 @@ function stopWatch() {
         leadingHours = hours;
     }
 
-    let displayTimer = document.querySelector('#timer').innerText = leadingHours + ":" + leadingMinutes + ":" + leadingSeconds + ":" +leadingMilliseconds + "0";
+    let displayTimer = document.querySelector('#timer').innerText = leadingHours + ":" + leadingMinutes + ":" + leadingSeconds + "." +leadingMilliseconds + "0";
 
 
 }
